@@ -1,4 +1,4 @@
-const sounds = ['LAAAME.wav', 'YUP.wav','bighat.wav', 'boing.wav', 'boing1.wav', 'boing2.wav', 'boing3.wav', 'boing5.wav', 'bonerAlert.wav', 'bonerAlert2.wav', 'evilLaugh2.wav', 'fingerBeev1.wav', 'greatestHits.wav', 'greatestHits2.wav', 'loserrrr.wav', 'ledet1.wav', 'ledet2.wav', 'ledet3.wav', 'ledet4.wav', 'ledet5.wav', 'ledet6.wav', 'naah.wav', 'notaFan.wav', 'radio.wav', 'sadTrumpet.wav', 'sadTrumpet2.wav', 'stop.wav', 'uhoh.wav', 'uhoh2.wav'];
+const sounds = ['LAAAME.wav', 'YUP.wav','bighat.wav', 'boing.wav', 'boing1.wav', 'boing2.wav', 'boing3.wav', 'boing5.wav', 'bonerAlert.wav', 'bonerAlert2.wav', 'evilLaugh2.wav', 'fingerBeev1.wav', 'greatestHits.wav', 'greatestHits2.wav', 'loserrrr.wav', 'ledet1.wav', 'ledet2.wav', 'ledet3.wav', 'ledet4.wav', 'ledet5.wav', 'ledet6.wav', 'naah.wav', 'notaFan.wav', 'radio.wav', 'sadTrumpet.wav', 'sadTrumpet2.wav', 'stopper.wav', 'uhoh.wav', 'uhoh2.wav'];
 
 const soundsLabel = [];
 
@@ -36,8 +36,8 @@ var x = document.getElementById("b");
 function play32() { x.play(); };
 
 // var a = document.getElementById("LAAAME");
-// function play0() { a.play(); };
 
+function play0() { LAAAME.play(); };
 function play1() { YUP.play(); }; 
 function play2() { bighat.play(); };      
 function play3() { boing.play(); }; 
@@ -63,7 +63,7 @@ function play22() { notaFan.play(); };
 function play23() { radio.play(); };      
 function play24() { sadTrumpet.play(); }; 
 function play25() { sadTrumpet2.play(); }; 
-// function play26() { stop.play(); }; 
+function play26() { stopper.play(); }; 
 function play27() { uhoh.play(); };
 function play28() { uhoh2.play(); };
 
@@ -72,7 +72,7 @@ for(var i = 0; i < sounds.length; i++){
 
     soundsLabel.push(sounds[i].slice(0, -4));
 
-    $(".main").append(`<button class="buttons" onclick="play`+ i +`()" type="button">` + soundsLabel[i] + `</button>`);
+    $(".main").append(`<div class="col-6"><button class="buttons" onclick="play`+ i +`()" type="button">` + soundsLabel[i] + `</button></div>`);
 
     $(".audio").append(`<audio id="` + sounds[i].slice(0, -4) + `"><source src="./assets/sounds/` + sounds[i] + `" type="audio/wav"></audio>`)        
     

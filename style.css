@@ -1,5 +1,40 @@
-.buttons {
-    width: 100%;
-    height: 12.5vh;
+html {
+    overflow-x: hidden;
+}
 
+.screen {
+    width: 100vw;
+    height: 100vh;
+}
+
+.buttons {
+    width: 40vw;
+    height: 40vw;
+    border-radius: 25%;
+    background-color: white;
+    margin: 1vh auto;
+}
+
+.nav {
+    background-color: black;
+    text-align: center;
+    height: 10vh;
+}
+
+.navTitle {
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center {
+    text-align: center ;
+}
+
+.mainRow {
+    border: black 1px solid;
+    border-radius: 50%;
+    height: 50vh;
 }
