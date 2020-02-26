@@ -72,7 +72,7 @@ for(var i = 0; i < sounds.length; i++){
 
     soundsLabel.push(sounds[i].slice(0, -4));
 
-    $(".main").append(`<div class="col-6"><button class="buttons" onclick="play`+ i +`()" type="button">` + soundsLabel[i] + `</button></div>`);
+    $(".main").append(`<div class="col-6"><button class="buttons btnTEXT" onclick="play`+ i +`()" type="button">` + soundsLabel[i] + `</button></div>`);
 
     $(".audio").append(`<audio id="` + sounds[i].slice(0, -4) + `"><source src="./assets/sounds/` + sounds[i] + `" type="audio/wav"></audio>`)        
     

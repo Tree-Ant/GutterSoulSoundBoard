@@ -1,0 +1,24 @@
+.whole {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./assets/img/MPC2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.box {
+    width: 65vw;
+    height: 65vw;
+    border: orange solid 1px;
+    position: absolute;
+    top: 19%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+}
+
+.innerBOX {
+    width: 25%;
+    height: 25%;
+    border: blue solid 1px;
+    float: left;
+}

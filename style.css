@@ -38,9 +38,13 @@ html {
     width: 35vw;
     height: 35vw;
     border: solid 5px black;
-    border-radius: 25%;
+    border-radius: 5%;
     background-color: white;
     margin:  1vh auto;
+}
+
+.btnTEXT {
+    font-size: 3vh;
 }
 
 .nav {
