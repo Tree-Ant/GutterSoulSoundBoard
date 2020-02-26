@@ -7,12 +7,12 @@
 }
 
 .box {
-    width: 65vw;
-    height: 65vw;
+    width: 70vw;
+    height: 70vw;
     border: orange solid 1px;
     position: absolute;
-    top: 19%;
-    left: 42%;
+    top: 20.25%;
+    left: 44%;
     transform: translate(-50%, -50%);
 }
 
@@ -21,4 +21,8 @@
     height: 25%;
     border: blue solid 1px;
     float: left;
+}
+
+.MPCscreen {
+    
 }
