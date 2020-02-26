@@ -1,18 +1,27 @@
+html {
+    background-color: black;
+}
 .whole {
     height: 100vh;
-    width: 100vw;
+    width: 88vw;
     background-image: url(./assets/img/MPC2.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    border: black 1px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
 .box {
-    width: 70vw;
-    height: 70vw;
+    width: 73vh;
+    height: 73vh;
     border: orange solid 1px;
     position: absolute;
-    top: 20.25%;
-    left: 44%;
+    top: 56.5%;
+    left: 22.8%;
     transform: translate(-50%, -50%);
 }
 
@@ -23,6 +32,19 @@
     float: left;
 }
 
+.gridBTN {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
 .MPCscreen {
-    
+    width: 84vh;
+    height: 54vh;
+    border: yellow solid 1px;
+    background-color: black;
+    position: absolute;
+    top: 20%;
+    left: 46%;
+    /* transform: transla5e(-50%, -50%); */
 }
