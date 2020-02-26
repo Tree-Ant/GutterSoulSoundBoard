@@ -3,7 +3,7 @@ html {
 }
 .whole {
     height: 100vh;
-    width: 88vw;
+    width: 100vw;
     background-image: url(./assets/img/MPC2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
